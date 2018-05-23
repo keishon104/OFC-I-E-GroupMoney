@@ -11,6 +11,7 @@
 		C07EAFF520B4B89300078372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EAFF420B4B89300078372 /* ViewController.swift */; };
 		C07EAFF820B4B89300078372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07EAFF620B4B89300078372 /* Main.storyboard */; };
 		C07EAFFD20B4B89500078372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07EAFFB20B4B89500078372 /* LaunchScreen.storyboard */; };
+		C0D9962820B5B1D2005DEA5B /* IphoneBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0D9962720B5B1D2005DEA5B /* IphoneBackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C07EAFF720B4B89300078372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C07EAFFC20B4B89500078372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C07EAFFE20B4B89500078372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D9962720B5B1D2005DEA5B /* IphoneBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IphoneBackground.jpg; path = groupMoney/Assets.xcassets/IphoneBackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		C07EAFE620B4B89300078372 = {
 			isa = PBXGroup;
 			children = (
+				C0D9962720B5B1D2005DEA5B /* IphoneBackground.jpg */,
 				C07EAFF120B4B89300078372 /* groupMoney */,
 				C07EAFF020B4B89300078372 /* Products */,
 			);
@@ -121,6 +124,7 @@
 			files = (
 				C07EAFFD20B4B89500078372 /* LaunchScreen.storyboard in Resources */,
 				C07EAFF820B4B89300078372 /* Main.storyboard in Resources */,
+				C0D9962820B5B1D2005DEA5B /* IphoneBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272BQVZDZ;
 				INFOPLIST_FILE = groupMoney/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272BQVZDZ;
 				INFOPLIST_FILE = groupMoney/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
